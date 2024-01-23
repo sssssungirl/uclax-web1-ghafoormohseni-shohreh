@@ -35,8 +35,6 @@ const SunAndMoonStyled = Styled.div`
 
     h2 {
         font-size: 30px;
-        font-style: Bold;
-        font-family: Arial;
         color: teal;
     }
 
