@@ -7,14 +7,65 @@ const Essays = () => {
         <EssaysStyled>
             <h2>Essays</h2>
 
-            <SingleEssay question={"Q1: Sample question..."}>
-                Answer 1 goes here.
+            <SingleEssay
+                question={
+                    "Q1: Explain the difference between HTML, CSS and JavaScript."
+                }
+            >
+                <ul>
+                    <li>
+                        <b>HTML:</b> Hypertext Markup Language: Mark up content,
+                        defines the content.
+                    </li>
+                    <li>
+                        <b>CSS:</b> Cascading Style Sheets: Aesthetics and
+                        visual components, layout.
+                    </li>
+                    <li>
+                        <b>JavaScript:</b> Functionality/behavior interactive,
+                        DOM Manupulation, event listeners, state.
+                    </li>
+                </ul>
             </SingleEssay>
-            <SingleEssay question={"Q2: Sample question..."}>
-                Answer 2 goes here.
+            <SingleEssay
+                question={"Q2: What is the difference between Git and Github?"}
+            >
+                <ul>
+                    <li>
+                        <b>Git:</b> Version Control system, tracking changes,
+                        feature branches, multiple developers to work with each
+                        other on the same code without stepping on each others
+                        toes.
+                    </li>
+                    <li>
+                        <b>Github:</b> Web based platform built around git to
+                        collaborate, store repos, and social interaction, code
+                        reviews, tracking and management.
+                    </li>
+                </ul>
             </SingleEssay>
-            <SingleEssay question={"Q3: Sample question..."}>
-                Answer 3 goes here.
+            <SingleEssay
+                question={
+                    "Q3: What is the difference between JQuery and React?"
+                }
+            >
+                <ul>
+                    <li>
+                        <b>JQuery:</b> is a JavaScript library primarily used
+                        for DOM manipulation and simplifying AJAX requests.
+                    </li>
+                    <li>
+                        <b>React:</b> is a JavaScript library for building user
+                        interfaces using a component-based architecture.
+                    </li>
+                </ul>
+            </SingleEssay>
+            <SingleEssay
+                question={
+                    "Q4: What is the difference between a Front-End and Back-End Developer?"
+                }
+            >
+                <p>Answer...</p>
             </SingleEssay>
         </EssaysStyled>
     );
