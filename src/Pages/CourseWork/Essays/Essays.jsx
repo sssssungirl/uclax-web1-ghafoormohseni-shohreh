@@ -76,6 +76,61 @@ const Essays = () => {
                     development comes into play.
                 </p>
             </SingleEssay>
+            <SingleEssay
+                question={`Q5: What is the difference between Absolute, Root and Document Relative linking?`}
+            >
+                <p>
+                    Absolute linking specifies the complete URL or path to a
+                    resource from the domain root, while root-relative linking
+                    specifies the path from the website's root directory.
+                    Document-relative linking specifies the path relative to the
+                    location of the HTML document itself. Each method offers
+                    different levels of flexibility and convenience in managing
+                    links within a website.
+                </p>
+            </SingleEssay>
+            <SingleEssay
+                question={`Q6: What is the difference between jpg, gif, png and svg images?`}
+            >
+                <p>
+                    JPG, GIF, PNG, and SVG are different types of image formats.
+                </p>
+                <ul>
+                    <li>
+                        <b>JPG:</b> Best for photographs and complex images with
+                        lots of colors. It uses lossy compression, meaning some
+                        image quality may be lost to reduce file size.
+                    </li>
+                    <li>
+                        <b>GIF:</b> Ideal for simple images, graphics, and
+                        animations. It supports transparency and animation but
+                        has a limited color palette, making it less suitable for
+                        photographs.
+                    </li>
+                    <li>
+                        <b>PNG:</b> Good for images with sharp edges, text, or
+                        graphics. It supports transparency and lossless
+                        compression, meaning no quality is lost when the image
+                        is compressed. It's commonly used for web graphics and
+                        images with transparent backgrounds.
+                    </li>
+                    <li>
+                        <b>SVG:</b> Scalable Vector Graphics are not raster
+                        images like JPG, GIF, and PNG. Instead, they're vector
+                        graphics, which means they're based on mathematical
+                        formulas defining shapes and paths. SVGs are
+                        resolution-independent and can be scaled to any size
+                        without losing quality. They're ideal for logos, icons,
+                        and graphics that need to be resized frequently without
+                        losing clarity.
+                    </li>
+                </ul>
+            </SingleEssay>
+            <SingleEssay
+                question={`Q7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
+            >
+                <p>Answer...</p>
+            </SingleEssay>
         </EssaysStyled>
     );
 };
