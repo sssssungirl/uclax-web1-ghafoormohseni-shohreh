@@ -14,7 +14,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact.jsx";
 
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
