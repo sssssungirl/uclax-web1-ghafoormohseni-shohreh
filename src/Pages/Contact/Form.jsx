@@ -24,7 +24,7 @@ const Form = ({ getSubmissions }) => {
     };
 
     const onSubmit = async (e) => {
-        e.preventDefult();
+        e.preventDefault();
 
         const postData = {
             id: uuid(),
