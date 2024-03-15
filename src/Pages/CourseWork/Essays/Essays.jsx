@@ -129,7 +129,40 @@ const Essays = () => {
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
             >
-                <p>Answer...</p>
+                <ul>
+                    <li>
+                        <b>Product Manager:</b> Sets the overall vision and
+                        strategy for the product.
+                    </li>
+                    <li>
+                        <b>Product Owner:</b> Represents the customer's needs
+                        and priorities to the development team.
+                    </li>
+                    <li>
+                        <b>Business Analyst:</b> Analyzes and defines the
+                        business requirements for the product.
+                    </li>
+                    <li>
+                        <b>Scrum Master:</b> Facilitates the Scrum process and
+                        helps the team work efficiently.
+                    </li>
+                    <li>
+                        <b>UX Designer:</b> Designs the user experience and
+                        interface of the product.
+                    </li>
+                    <li>
+                        <b>Developer/Engineer:</b> Builds and codes the product
+                        features.
+                    </li>
+                    <li>
+                        <b>QA/SDET:</b> Tests the product to ensure quality and
+                        functionality.
+                    </li>
+                    <li>
+                        <b>DevOps:</b> Manages the deployment and infrastructure
+                        of the product.
+                    </li>
+                </ul>
             </SingleEssay>
         </EssaysStyled>
     );
