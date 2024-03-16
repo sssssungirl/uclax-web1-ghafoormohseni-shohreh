@@ -13,7 +13,7 @@ import { MediaQueryProvider } from "@/Common/useMediaQuery";
 import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
-import Staff from "./Staff/Staff.jsx";
+import Portfolio from "./Portfolio/Portfolio.jsx";
 import Contact from "./Contact/Contact.jsx";
 
 // course work page components
@@ -22,6 +22,7 @@ import SunAndMoon from "./CourseWork/SunAndMoon/SunAndMoon.jsx";
 import Essays from "./CourseWork/Essays/Essays.jsx";
 import ResponsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 import Fundamentals from "./CourseWork/Fundamentals/Fundamentals.jsx";
+import Videos from "./CourseWork/Videos.jsx";
 
 const MyRoutes = () => {
     return (
@@ -30,7 +31,7 @@ const MyRoutes = () => {
                 <Routes>
                     <Route element={<PagesLayout />}>
                         <Route element={<Home />} path="" />
-                        <Route element={<Staff />} path="Staff" />
+                        <Route element={<Portfolio />} path="Portfolio" />
                         <Route element={<Contact />} path="Contact" />
 
                         <Route
@@ -50,6 +51,7 @@ const MyRoutes = () => {
                                 element={<Fundamentals />}
                                 path="javascript-fundamentals"
                             />
+                            <Route element={<Videos />} path="videos" />
                         </Route>
                     </Route>
                 </Routes>

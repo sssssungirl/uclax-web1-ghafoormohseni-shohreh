@@ -32,11 +32,10 @@ export default SunAndMoon;
 
 // css Layer
 const SunAndMoonStyled = Styled.div`
-    text-align: center;
+
 
     h2 {
-        font-size: 30px;
-        color: teal;
+        color: #444444;
     }
 
     img {

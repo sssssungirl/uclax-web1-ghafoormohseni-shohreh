@@ -19,6 +19,7 @@ const CourseWorkLayout = () => {
                     <NavLink to="/course-work/javascript-fundamentals">
                         Fundamentals
                     </NavLink>
+                    <NavLink to="/course-work/videos">Videos</NavLink>
                 </nav>
                 <Outlet />
             </Inset>

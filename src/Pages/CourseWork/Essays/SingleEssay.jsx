@@ -13,11 +13,11 @@ export default SingleEssay;
 
 const SingleEssayStyled = styled.div`
     margin: 20px 0px;
-    border: solid 2px #034444;
+    border: solid 2px #f6eb16;
 
     h3 {
-        background-color: #034444;
-        color: white;
+        background-color: #f6eb16;
+        color: black;
         font-size: 20px;
         padding: 10px 20px;
         margin: 0px;

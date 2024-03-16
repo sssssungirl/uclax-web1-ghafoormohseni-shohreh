@@ -21,6 +21,6 @@ Accolades.propTypes = {
 };
 
 const AccoladesStyled = styled.ul`
-    padding-left: 20px;
+    padding: 20px;
     list-style-type: disc;
 `;

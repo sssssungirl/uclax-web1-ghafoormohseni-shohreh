@@ -41,15 +41,16 @@ const SmallStyled = styled.div`
     }
 
     nav {
+        text-align: center;
         position: fixed;
         left: 0px;
         right: 0px;
         bottom: 0px;
-        top: 300px;
+        top: 140px;
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #a8a8a8;
 
         a {
             display: block;
@@ -57,13 +58,13 @@ const SmallStyled = styled.div`
             padding: 10px;
             border-bottom: solid 1px #999999;
 
-            color: white;
+            color: #000000;
             text-decoration: none;
 
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #f3ec1a;
             }
         }
     }
