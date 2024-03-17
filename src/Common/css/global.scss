@@ -14,6 +14,8 @@ body {
 body {
     overflow-y: scroll;
     background-image: url("https://i.postimg.cc/7hHRf9Wc/close-up-white-marble-textured-wall.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     min-width: 300px;
 }
 

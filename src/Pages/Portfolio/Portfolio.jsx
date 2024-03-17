@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PortfolioVideo from "./PortfolioList/PortfolioVideo";
 
 import PortfolioList from "./PortfolioList/PortfolioList";
 
@@ -9,6 +10,7 @@ const Portfolio = () => {
         <PortfolioStyled>
             <Inset>
                 <h1>ShoDesign Portfolio</h1>
+                <PortfolioVideo />
                 <PortfolioList />
             </Inset>
         </PortfolioStyled>

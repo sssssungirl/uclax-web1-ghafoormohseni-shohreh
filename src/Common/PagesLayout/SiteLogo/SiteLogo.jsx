@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { useState } from "react";
 
 /* Images ---------------------------*/
-import ShoLogo from "./Sho-Logo-01.png";
-import ShoLogoHov from "./Sho-Logo-02.png";
+import ShoLogo from "./Sho-Logo-A.png";
+import ShoLogoHov from "./Sho-Logo-B.png";
 
 const SiteLogo = () => {
     const [imgSrc, imgSrcUpdate] = useState(ShoLogoHov);
@@ -37,5 +37,7 @@ const SiteLogoStyled = styled.div`
     img {
         width: 40%;
         height: auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 `;

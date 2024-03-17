@@ -11,6 +11,16 @@ const Footer = () => {
                 <div className="logo">
                     <SiteLogo />
                 </div>
+                <a
+                    href="https://www.linkedin.com/in/shohrehmohseni/"
+                    target="LinkedIn"
+                >
+                    <img
+                        src="https://i.postimg.cc/2SxgwRpx/Linked-In-01-01.png"
+                        border="0"
+                        alt="LinkedIn"
+                    />
+                </a>
                 <h2>
                     ShoDesign: Peace, Love, Creativity, Fitness, Chill and
                     Respect | Professor Mitch Gohman
@@ -27,7 +37,8 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    color: #c2c2c2;
+    background-color: #efefef;
 
     padding: 20px 0px;
 
