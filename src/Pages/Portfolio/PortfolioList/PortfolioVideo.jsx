@@ -20,4 +20,5 @@ export default Videos;
 const VideosStyled = styled.div`
     aspect-ratio: 4 / 1.5;
     margin-bottom: 20px;
+    margin-top: 20px;
 `;
