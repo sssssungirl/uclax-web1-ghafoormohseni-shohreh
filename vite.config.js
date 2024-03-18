@@ -14,5 +14,5 @@ export default defineConfig({
     build: {
         outDir: "./build",
     },
-    base: "/uclax-web1-ghafoormohseni-shohreh/",
+    base: "/uclax-web1-ghafoormohseni-shohreh",
 });
